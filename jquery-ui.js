@@ -425,14 +425,6 @@ $.Widget.prototype = {
 		this._setOptions( options );
 
 		return this;
-	},
-
-	_setOptions: function( options ) {
-		var key;
-
-		for ( key in options ) {
-			this._setOption( key, options[ key ] );
-		}
 
 		return this;
 	},
